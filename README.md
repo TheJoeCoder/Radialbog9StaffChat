@@ -8,8 +8,11 @@ Radialbog9 StaffChat (formerly known as Bungee StaffChat) gives the ability to c
 
 ## Permissions
 • staffchat.use - Allows the player who has the permission to run the /ao command.
+
 • staffchat.see - Allows the player who has the permission to see the staff chat messages sent.
+
 • staffchat.help - Allows the player who has the permission to run the /scinfo command and get help on using the plugin.
+
 
 ## Installation
 1) Download the plugin and put it in your BUNGEECORD Plugins folder.
