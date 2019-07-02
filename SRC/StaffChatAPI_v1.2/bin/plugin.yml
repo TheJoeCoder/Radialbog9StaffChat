@@ -1,0 +1,5 @@
+name: Bungee StaffChatAPI
+main: com.radialbog9.bungee.staff.API.Main
+version: 1.2
+author: Radialbog9
+depends: ["Bungee StaffChat"]
