@@ -1,0 +1,53 @@
+################################ RADIALBOG9's ##################################
+#                                                                              #
+#  ##########     ############   #############     ########     #########      #
+#  ##                  ##        #           #     #            #              #
+#  ##########          ##        #############     ########     #########      #
+#          ##          ##        #           #     #            #              #
+#  ##########          ##        #           #     #            #              #
+#                                                                              #
+#  ##########    #          #    ############     ############                 #
+#  #             #          #    #          #          ##                      #
+#  #             ############    ############          ##                      #
+#  #             #          #    #          #          ##                      #
+#  ##########    #          #    #          #          ##                      #
+#                                                                              #
+################################################################################
+
+
+#Permissions
+#You can change these if you wish.
+permissions:
+  use-sc: 'staffchat.use'
+  see-sc: 'staffchat.see'
+  text-sc: 'staffchat.textchat'
+  toggle-sc:
+    self: 'staffchat.toggle.self'
+    others: 'staffchat.toggle.others'
+    exempt: 'staffchat.toggle.others.exempt'
+
+
+#Here are the messages which you can customize to your language.
+#Leave them at the defaults if you are English and the majority of your player base is English. Just for compatibility's sake.
+#Before you change them though, if you do, just use the plugin with the defaults so you know what's what.
+#Use this for colour codes: https://www.digminecraft.com/lists/color_list_pc.php but replace § with &
+
+# There are placeholders in here, for example:
+#    {ADMIN_MOTD} would get replaced with the MOTD of the server the person messaging is on
+#    {ADMIN_NAME} would get replaced with the person messaging's name
+#    {ADMIN_MESSAGE} would get replaced with the person's message.
+#    {PLAYER_NAME} would get replaced with the admin's TARGET's name when toggling messages.
+#    {CONSOLE_MESSAGE} would get replaced with the console's message.
+# NOTES:
+#    THESE PLACEHOLDERS WILL NOT WORK WITH PLACEHOLDERAPI OR ANY OTHER PLUGIN. THEY ARE JUST IN SPECIFIC PARTS OF THIS CONFIG.
+#    The placeholders ONLY work on the messages that, by default, have the specified placeholders in.
+
+messages:
+  no-perm: '&4You do not have permission to run this command.'
+  exec-console: '&4You cannot run this command from the console.'
+  toomanyargs: '&4You have sent too many arguments.'
+  not-enough-args: '&4You have not specified enough arguments'
+  player-offline: '&f[&4AO&f] &4The player you have selected is offline or is exempt from having their StaffChat toggled.'
+  player-exempt: '&f[&4AO&f] &4The player you have selected is offline or is exempt from having their StaffChat toggled.'
+  adminchat-message: '&f[&4AO &r{ADMIN_MOTD}&r&f] &r&a{ADMIN_NAME}&r&f: &r&5{ADMIN_MESSAGE}'
+  console-message: '&f[&4AO&r&f] &r&aCONSOLE &r&5: {CONSOLE_MESSAGE}'

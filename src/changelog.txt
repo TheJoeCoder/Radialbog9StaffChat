@@ -1,0 +1,5 @@
+CHANGELOG:
+	• Added API into the Main JAR; No API plugin needed!
+	• Added "Text Chat"
+	• Added Showing and Hiding StaffChat
+	• Added more customisation options!
