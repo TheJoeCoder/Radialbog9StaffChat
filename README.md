@@ -1,9 +1,6 @@
 # Radialbog9 Staff Chat
 Adds Chatting capabilities for staff!
 
-
-This plugin *does not* require StaffChatAPI to work on its own. If you download add-ons for this plugin, you will *need* StaffChatAPI *as well*.
-
 Radialbog9 StaffChat (formerly known as Bungee StaffChat) gives the ability to chat in a separate chat from other players on your server network. It is created in the style of Performium's StaffChat plugin and is a great alternative.
 
 ## Permissions
